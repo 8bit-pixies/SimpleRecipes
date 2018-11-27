@@ -5,7 +5,7 @@ jobs:
   include:
     - stage: test
       script: 
-        pip install .['development']
+        pip install .['development'];
         python -m nose2
 
 
