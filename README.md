@@ -1,5 +1,7 @@
 # Simple Recipes
 
+[![Build Status](https://travis-ci.org/chappers/SimpleRecipes.svg?branch=master)](https://travis-ci.org/chappers/SimpleRecipes)
+
 Simple Recipes aims to be an alternative to `scikit-learn` for preprocessing data using vanilla python.
 
 Whilst of course we can use `scikit-learn` for machine learning needs, sometimes we require something lighter or _simplier_ without worry about all the dependencies which come with `scikit-learn`. Use cases for this could include:

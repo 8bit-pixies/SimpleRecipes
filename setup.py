@@ -19,7 +19,7 @@ except ImportError:
     with open(readme_file) as f:
         README = f.read()
 
-def write_version_py(filename=os.path.join(setup_dir, 'feature_customer/version.py')):
+def write_version_py(filename=os.path.join(setup_dir, 'simple_recipes/version.py')):
     version = VERSION
     a = open(filename, 'w')
     file_content = "\n".join(["",
@@ -64,7 +64,6 @@ setup(
     author_email = AUTHOR_EMAIL,
     url = URL,
     packages =find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
-    install_requires = INSTALL_REQUIRES,
     extras_require = extras_require,
     zip_safe=False # force install as source
 )
