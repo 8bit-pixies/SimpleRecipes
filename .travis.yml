@@ -1,11 +1,11 @@
 language: python
 stages:
-  - install
   - test
 jobs:
   include:
-    - stage: install
-      script: pip install .['development']
     - stage: test
-      script: python -m nose2
+      script: 
+        pip install .['development']
+        python -m nose2
+
 
