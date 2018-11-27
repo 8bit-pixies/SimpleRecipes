@@ -1,0 +1,8 @@
+[run]
+omit =
+    setup.py
+    simple_recipes/tests/*
+
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
