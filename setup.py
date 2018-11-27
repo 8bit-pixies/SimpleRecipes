@@ -50,7 +50,8 @@ extras_require = {'development': ['nose2>=0.7.4',
                                   'flake8>=3.5.0',
                                   'awscli>=1.15.26',
                                   'future>=0.16.0',
-                                  'm2r']
+                                  'm2r',
+                                  'transcrypt']
                     }
 extras_require['complete'] = sorted(set(sum(extras_require.values(),[])))
 

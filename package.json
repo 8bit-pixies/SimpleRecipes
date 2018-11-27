@@ -1,0 +1,23 @@
+{
+  "name": "simplerecipes",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/chappers/SimpleRecipes.svg?branch=master)](https://travis-ci.org/chappers/SimpleRecipes)",
+  "main": "feature.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chappers/SimpleRecipes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chappers/SimpleRecipes/issues"
+  },
+  "homepage": "https://github.com/chappers/SimpleRecipes#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
