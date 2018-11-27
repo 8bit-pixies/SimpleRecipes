@@ -4,7 +4,7 @@
   "description": "[![Build Status](https://travis-ci.org/chappers/SimpleRecipes.svg?branch=master)](https://travis-ci.org/chappers/SimpleRecipes)",
   "main": "feature.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cp simple_recipes/tests/feature_test.js feature_test.js; node feature_test.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/chappers/SimpleRecipes#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "test-runner": "^0.5.1"
   }
 }

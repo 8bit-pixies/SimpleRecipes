@@ -25,3 +25,23 @@ Tests are runnable via `nose2`.
 pip install .['development']
 python -m nose2
 ```
+
+You can build the node version through
+
+```
+make py=feature build
+npm test
+```
+
+Which demonstrates how the transpiler operates
+
+## Other Recommended Requirements
+
+The key idea is to use tensorflow-js to enable the machine learning side in node. To install these requirements, we can do it using pip:
+
+```
+pip install tensorflow tensorflowjs==0.6.7 keras==2.2.2 scikit-learn numpy==1.15.1 keras-applications==1.0.4 keras-preprocessing==1.0.2 pandas
+```
+
+Note that if we use `@tensorflow/tfjs-node` we have to use Python 2, whereas Transcrypt only supports Python 3
+

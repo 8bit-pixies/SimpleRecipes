@@ -100,6 +100,7 @@ if __name__ == "__main__":
     X = [['cat', 1], ['dog', 0]]
     X_trans = ohe.fit_transform(X)
     #print(X_trans)
+    #print(ohe.categories)
 
     # now we need to be able to dump....
 

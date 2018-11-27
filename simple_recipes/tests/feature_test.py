@@ -1,8 +1,6 @@
 from simple_recipes.feature import CountVectorizer, TextCleaner, OneHotEncoder
 import numpy as np
 
-import tempfile
-
 def test_feature():
     X = ['one two three', 'four five six']
     bow = CountVectorizer()

@@ -16,3 +16,7 @@ build:
 clean:
 	rm -r -f *.js
 	rm -r -f __target__/
+
+test: build
+	python -m nose2
+	
