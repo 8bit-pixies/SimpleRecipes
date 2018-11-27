@@ -3,3 +3,4 @@ jobs:
   include:
     - script: pip install .['development']
     - script: python -m nose2
+
